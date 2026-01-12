@@ -1,0 +1,30 @@
+  @import "tailwindcss";
+  body {
+  background: linear-gradient(135deg, #f5f7fa, #e4ebf5);
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(14px);
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.table-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+}
+
+.selected-chip {
+  color: #4338ca;
+  border-radius: 999px;
+  font-weight: 800;
+  margin-top: 5px;
+  font-size: 1.5rem;
+
+}
